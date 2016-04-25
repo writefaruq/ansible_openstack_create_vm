@@ -1,0 +1,4 @@
+*.retry
+vm_settings.yaml
+localhost
+*project

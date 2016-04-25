@@ -1,0 +1,10 @@
+-   hosts: localhost
+    connection: local
+    vars_files:
+     - vm_settings.yaml 
+    #vars_prompt: 
+     #- name: "os_password"
+     #  prompt: "Enter your openstack password"
+     #  private: yes 
+    roles:
+        -   create_vm
