@@ -12,7 +12,7 @@
        key_name: "{{ keypair_name }}"
        timeout: 200
        flavor: "{{ flavor_name }}"
-       network: "{{ network_name }}"
+       nics: "{{ network_names }}"
        meta:
          hostname: "{{ instance_hostname }}"
          group: "{{ instance_security_group }}"

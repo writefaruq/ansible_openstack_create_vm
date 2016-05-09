@@ -1,7 +1,7 @@
 ---
 image_name: 'some-hash-47b2-8341-cadeb8baf60a'
 flavor_name: 'm1.small'
-network_name:  'some-net'
+network_names:  "some-net1, some-net2"
 instance_hostname: 'some-vm01'
 instance_security_group: 'default'
 keypair_name: 'some-key'
